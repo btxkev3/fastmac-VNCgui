@@ -30,5 +30,5 @@ wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-darwin-amd64.zip
 unzip ngrok-stable-darwin-amd64.zip
 
 #configure ngrok and start it
-ngrok authtoken $3
-ngrok tcp -region ap 5900 &
+./ngrok authtoken $3
+./ngrok tcp -region ap 5900 &
